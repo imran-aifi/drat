@@ -1,3 +1,18 @@
+Package: ArchR
+Version: 1.0.2
+Imports: ggplot2, SummarizedExperiment,
+     data.table, Matrix, rhdf5, magrittr,
+     S4Vectors (>= 0.9.25), BiocGenerics,
+     Rcpp (>= 0.12.16), matrixStats, plyr,
+     nabor, motifmatchr, chromVAR, uwot,
+     ggrepel, Rsamtools, gtable, gtools,
+     stringr, grid, gridExtra, Biostrings,
+     ComplexHeatmap, GenomicRanges
+LinkingTo: Rcpp
+License: GPL (>= 2)
+MD5sum: 0bc2f77a17bf013d0be8e536d5c33428
+NeedsCompilation: yes
+
 Package: drat
 Version: 0.1.8
 Depends: R (>= 3.2.0)
